@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#root{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    margin: 0px;
+    background-color: #034069;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-ico{
+    margin-left: 6%;
+}
+.menu-ico {
+    display: none; /* Hide by default */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Show on mobile devices */
+    .menu-ico {
+      display: none;
+    }
+  }
+
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.name{
+    position: absolute;
+    margin-left: 50%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
